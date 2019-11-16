@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "pack_format": 4,
+        "description": {
+            "text": "Biomes Scanner Datapack for Minecraft 1.14.4+. Provides an data-driven means of detecting player biome to minecraft commands via advancements or scoreboard values"
+        },
+        "author": "akoimeexx", 
+        "version": "1.0.1",
+        "url": "https://akoimeexx.github.com/biomes-scanner"
+    }
+}
