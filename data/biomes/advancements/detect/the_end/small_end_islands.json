@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.small_end_islands"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_small_end_islands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:small_end_islands"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/the_end/small_end_islands"
+    },
+    "parent": "biomes:detect/the_end"
+}

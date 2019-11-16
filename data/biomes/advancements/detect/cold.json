@@ -1,0 +1,87 @@
+{
+    "display": {
+        "title": {
+            "text":"Cold Biomes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_giant_spruce_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_spruce_taiga"
+            }
+        },
+        "detect_giant_tree_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_tree_taiga"
+            }
+        },
+        "detect_gravelly_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:gravelly_mountains"
+            }
+        },
+        "detect_modified_gravelly_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_gravelly_mountains"
+            }
+        },
+        "detect_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mountains"
+            }
+        },
+        "detect_stone_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:stone_shore"
+            }
+        },
+        "detect_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga"
+            }
+        },
+        "detect_taiga_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga_mountains"
+            }
+        },
+        "detect_wooded_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_mountains"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "detect_giant_spruce_taiga",
+            "detect_giant_tree_taiga",
+            "detect_gravelly_mountains",
+            "detect_modified_gravelly_mountains",
+            "detect_mountains",
+            "detect_stone_shore",
+            "detect_taiga",
+            "detect_taiga_mountains",
+            "detect_wooded_mountains"
+        ]
+    ],
+    "parent": "biomes:root"
+}

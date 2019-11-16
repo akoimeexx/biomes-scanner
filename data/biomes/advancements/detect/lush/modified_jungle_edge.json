@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.modified_jungle_edge"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:jungle_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_modified_jungle_edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_jungle_edge"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/modified_jungle_edge"
+    },
+    "parent": "biomes:detect/lush"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.the_end"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/the_end/the_end"
+    },
+    "parent": "biomes:detect/the_end"
+}

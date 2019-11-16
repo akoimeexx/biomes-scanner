@@ -1,0 +1,157 @@
+{
+    "display": {
+        "title": {
+            "text":"Lush Biomes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:jungle_leaves"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_bamboo_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle"
+            }
+        },
+        "detect_beach": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:beach"
+            }
+        },
+        "detect_birch_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:birch_forest"
+            }
+        },
+        "detect_dark_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:dark_forest"
+            }
+        },
+        "detect_dark_forest_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:dark_forest_hills"
+            }
+        },
+        "detect_flower_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:flower_forest"
+            }
+        },
+        "detect_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:forest"
+            }
+        },
+        "detect_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle"
+            }
+        },
+        "detect_jungle_edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_edge"
+            }
+        },
+        "detect_modified_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_jungle"
+            }
+        },
+        "detect_modified_jungle_edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_jungle_edge"
+            }
+        },
+        "detect_mushroom_fields": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_fields"
+            }
+        },
+        "detect_mushroom_field_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_field_shore"
+            }
+        },
+        "detect_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:plains"
+            }
+        },
+        "detect_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:river"
+            }
+        },
+        "detect_sunflower_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:sunflower_plains"
+            }
+        },
+        "detect_swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:swamp"
+            }
+        },
+        "detect_swamp_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:swamp_hills"
+            }
+        },
+        "detect_tall_birch_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:tall_birch_forest"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "detect_bamboo_jungle",
+            "detect_beach",
+            "detect_birch_forest",
+            "detect_dark_forest",
+            "detect_dark_forest_hills",
+            "detect_flower_forest",
+            "detect_forest",
+            "detect_jungle",
+            "detect_jungle_edge",
+            "detect_modified_jungle",
+            "detect_modified_jungle_edge",
+            "detect_mushroom_fields",
+            "detect_mushroom_field_shore",
+            "detect_plains",
+            "detect_river",
+            "detect_sunflower_plains",
+            "detect_swamp",
+            "detect_swamp_hills",
+            "detect_tall_birch_forest"
+        ]
+    ],
+    "parent": "biomes:root"
+}

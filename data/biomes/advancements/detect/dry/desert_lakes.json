@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.desert_lakes"
+        },
+        "description": {
+            "text": "An oasis in an otherwise terrible place"
+        },
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_desert_lakes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert_lakes"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/desert_lakes"
+    },
+    "parent": "biomes:detect/dry"
+}

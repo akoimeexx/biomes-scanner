@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.lukewarm_ocean"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:sea_pickle"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_lukewarm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:lukewarm_ocean"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/ocean/lukewarm_ocean"
+    },
+    "parent": "biomes:detect/ocean"
+}

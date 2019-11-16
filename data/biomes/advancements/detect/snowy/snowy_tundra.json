@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.snowy_tundra"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:snow"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_snowy_tundra": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_tundra"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/snowy/snowy_tundra"
+    },
+    "parent": "biomes:detect/snowy"
+}

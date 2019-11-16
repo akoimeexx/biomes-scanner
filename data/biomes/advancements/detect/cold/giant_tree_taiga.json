@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.giant_tree_taiga"
+        },
+        "description": {
+            "text": "When normal-sized trees just won't do..."
+        },
+        "icon": {
+            "item": "minecraft:spruce_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_giant_tree_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_tree_taiga"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/giant_tree_taiga"
+    },
+    "parent": "biomes:detect/cold"
+}

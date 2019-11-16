@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.wooded_badlands_plateau"
+        },
+        "description": {
+            "text": "A wasteland with growth that fights against time and the elements"
+        },
+        "icon": {
+            "item": "minecraft:acacia_leaves"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_wooded_badlands_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_badlands_plateau"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/wooded_badlands_plateau"
+    },
+    "parent": "biomes:detect/dry"
+}

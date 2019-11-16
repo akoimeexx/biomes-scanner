@@ -1,0 +1,73 @@
+{
+    "display": {
+        "title": {
+            "text":"Snowy Biomes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_frozen_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:frozen_river"
+            }
+        },
+        "detect_ice_spikes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:ice_spikes"
+            }
+        },
+        "detect_snowy_beach": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_beach"
+            }
+        },
+        "detect_snowy_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_mountains"
+            }
+        },
+        "detect_snowy_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_taiga"
+            }
+        },
+        "detect_snowy_taiga_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_taiga_mountains"
+            }
+        },
+        "detect_snowy_tundra": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_tundra"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "detect_frozen_river",
+            "detect_ice_spikes",
+            "detect_snowy_beach",
+            "detect_snowy_mountains",
+            "detect_snowy_taiga",
+            "detect_snowy_taiga_mountains",
+            "detect_snowy_tundra"
+        ]
+    ],
+    "parent": "biomes:root"
+}

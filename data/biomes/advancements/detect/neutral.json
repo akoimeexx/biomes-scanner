@@ -1,0 +1,101 @@
+{
+    "display": {
+        "title": {
+            "text":"Neutral Biomes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_bamboo_jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle_hills"
+            }
+        },
+        "detect_birch_forest_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:birch_forest_hills"
+            }
+        },
+        "detect_desert_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert_hills"
+            }
+        },
+        "detect_giant_spruce_taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_spruce_taiga_hills"
+            }
+        },
+        "detect_giant_tree_taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_tree_taiga_hills"
+            }
+        },
+        "detect_jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_hills"
+            }
+        },
+        "detect_snowy_taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_taiga_hills"
+            }
+        },
+        "detect_taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga_hills"
+            }
+        },
+        "detect_tall_birch_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:tall_birch_hills"
+            }
+        },
+        "detect_the_void": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_void"
+            }
+        },
+        "detect_wooded_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_hills"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "detect_bamboo_jungle_hills",
+            "detect_birch_forest_hills",
+            "detect_desert_hills",
+            "detect_giant_spruce_taiga_hills",
+            "detect_giant_tree_taiga_hills",
+            "detect_jungle_hills",
+            "detect_snowy_taiga_hills",
+            "detect_taiga_hills",
+            "detect_tall_birch_hills",
+            "detect_the_void",
+            "detect_wooded_hills"
+        ]
+    ],
+    "parent": "biomes:root"
+}

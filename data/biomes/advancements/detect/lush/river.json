@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.river"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:cod_bucket"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:river"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/river"
+    },
+    "parent": "biomes:detect/lush"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.tall_birch_hills"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:birch_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_tall_birch_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:tall_birch_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/neutral/tall_birch_hills"
+    },
+    "parent": "biomes:detect/neutral"
+}

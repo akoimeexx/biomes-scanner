@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.mushroom_fields"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:red_mushroom_block"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_mushroom_fields": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mushroom_fields"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/mushroom_fields"
+    },
+    "parent": "biomes:detect/lush"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.eroded_badlands"
+        },
+        "description": {
+            "text": "A wasteland with little growth, carved up by the passage of time and elements"
+        },
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_eroded_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:eroded_badlands"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/eroded_badlands"
+    },
+    "parent": "biomes:detect/dry"
+}

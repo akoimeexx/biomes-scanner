@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.badlands"
+        },
+        "description": {
+            "text": "A wasteland with little growth"
+        },
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:badlands"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/badlands"
+    },
+    "parent": "biomes:detect/dry"
+}

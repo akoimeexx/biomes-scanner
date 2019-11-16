@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.snowy_taiga_mountains"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_snowy_taiga_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_taiga_mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/snowy/snowy_taiga_mountains"
+    },
+    "parent": "biomes:detect/snowy"
+}

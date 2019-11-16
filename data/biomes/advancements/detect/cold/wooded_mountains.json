@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.wooded_mountains"
+        },
+        "description": {
+            "text": "Some greenery in an otherwise barren region"
+        },
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_wooded_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/wooded_mountains"
+    },
+    "parent": "biomes:detect/cold"
+}

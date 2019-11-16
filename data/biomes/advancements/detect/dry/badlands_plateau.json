@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.badlands_plateau"
+        },
+        "description": {
+            "text": "A sheered off wasteland with little growth"
+        },
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_badlands_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:badlands_plateau"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/badlands_plateau"
+    },
+    "parent": "biomes:detect/dry"
+}

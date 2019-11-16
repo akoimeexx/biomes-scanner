@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.plains"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:plains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/plains"
+    },
+    "parent": "biomes:detect/lush"
+}

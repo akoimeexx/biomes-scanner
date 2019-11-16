@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.forest"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:forest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/forest"
+    },
+    "parent": "biomes:detect/lush"
+}

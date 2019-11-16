@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.snowy_taiga"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:snow"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_snowy_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:snowy_taiga"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/snowy/snowy_taiga"
+    },
+    "parent": "biomes:detect/snowy"
+}

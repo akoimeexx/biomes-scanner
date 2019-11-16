@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.bamboo_jungle_hills"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_bamboo_jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/neutral/bamboo_jungle_hills"
+    },
+    "parent": "biomes:detect/neutral"
+}

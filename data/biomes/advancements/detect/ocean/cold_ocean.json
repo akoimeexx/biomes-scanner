@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.cold_ocean"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:dried_kelp_block"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_cold_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:cold_ocean"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/ocean/cold_ocean"
+    },
+    "parent": "biomes:detect/ocean"
+}

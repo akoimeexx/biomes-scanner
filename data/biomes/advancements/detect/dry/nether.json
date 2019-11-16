@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.nether"
+        },
+        "description": {
+            "text": "But it's always been \"Hell\" to me"
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/nether"
+    },
+    "parent": "biomes:detect/dry"
+}

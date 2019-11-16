@@ -1,0 +1,1 @@
+scoreboard objectives add biomes.current dummy "Current Biome Value"

@@ -1,0 +1,115 @@
+{
+    "display": {
+        "title": {
+            "text":"Dry Biomes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:red_sand"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:badlands"
+            }
+        },
+        "detect_badlands_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:badlands_plateau"
+            }
+        },
+        "detect_desert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert"
+            }
+        },
+        "detect_desert_lakes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert_lakes"
+            }
+        },
+        "detect_eroded_badlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:eroded_badlands"
+            }
+        },
+        "detect_modified_badlands_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_badlands_plateau"
+            }
+        },
+        "detect_modified_wooded_badlands_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_wooded_badlands_plateau"
+            }
+        },
+        "detect_nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:nether"
+            }
+        },
+        "detect_savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna"
+            }
+        },
+        "detect_savanna_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna_plateau"
+            }
+        },
+        "detect_shattered_savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:shattered_savanna"
+            }
+        },
+        "detect_shattered_savanna_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:shattered_savanna_plateau"
+            }
+        },
+        "detect_wooded_badlands_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_badlands_plateau"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "detect_badlands",
+            "detect_badlands_plateau",
+            "detect_desert",
+            "detect_desert_lakes",
+            "detect_eroded_badlands",
+            "detect_modified_badlands_plateau",
+            "detect_modified_wooded_badlands_plateau",
+            "detect_nether",
+            "detect_savanna",
+            "detect_savanna_plateau",
+            "detect_shattered_savanna",
+            "detect_shattered_savanna_plateau",
+            "detect_wooded_badlands_plateau"
+        ]
+    ],
+    "parent": "biomes:root"
+}

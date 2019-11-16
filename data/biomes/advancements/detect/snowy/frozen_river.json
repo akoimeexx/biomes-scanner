@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.frozen_river"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_frozen_river": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:frozen_river"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/snowy/frozen_river"
+    },
+    "parent": "biomes:detect/snowy"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.modified_gravelly_mountains"
+        },
+        "description": {
+            "text": "More barren rock meets more useless pebbles"
+        },
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_modified_gravelly_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:modified_gravelly_mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/modified_gravelly_mountains"
+    },
+    "parent": "biomes:detect/cold"
+}

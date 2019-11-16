@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.birch_forest"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:birch_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_birch_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:birch_forest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/birch_forest"
+    },
+    "parent": "biomes:detect/lush"
+}

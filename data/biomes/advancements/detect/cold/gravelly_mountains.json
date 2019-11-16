@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.gravelly_mountains"
+        },
+        "description": {
+            "text": "Barren rock meets useless pebbles"
+        },
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_gravelly_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:gravelly_mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/gravelly_mountains"
+    },
+    "parent": "biomes:detect/cold"
+}

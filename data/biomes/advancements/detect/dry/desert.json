@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.desert"
+        },
+        "description": {
+            "text": "It's rough and it's coarse, and it gets everywhere"
+        },
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_desert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/desert"
+    },
+    "parent": "biomes:detect/dry"
+}

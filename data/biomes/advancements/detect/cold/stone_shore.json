@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.stone_shore"
+        },
+        "description": {
+            "text": "Barren rock and water... joy"
+        },
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_stone_shore": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:stone_shore"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/stone_shore"
+    },
+    "parent": "biomes:detect/cold"
+}

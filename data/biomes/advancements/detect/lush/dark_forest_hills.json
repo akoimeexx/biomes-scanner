@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.dark_forest_hills"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:dark_oak_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_dark_forest_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:dark_forest_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/dark_forest_hills"
+    },
+    "parent": "biomes:detect/lush"
+}

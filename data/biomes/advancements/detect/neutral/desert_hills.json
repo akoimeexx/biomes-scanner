@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.desert_hills"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:sand"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_desert_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:desert_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/neutral/desert_hills"
+    },
+    "parent": "biomes:detect/neutral"
+}

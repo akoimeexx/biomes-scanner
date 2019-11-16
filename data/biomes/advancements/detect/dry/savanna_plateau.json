@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.savanna_plateau"
+        },
+        "description": {
+            "text": "A sheered off region, famed for its llamas"
+        },
+        "icon": {
+            "item": "minecraft:acacia_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_savanna_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna_plateau"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/savanna_plateau"
+    },
+    "parent": "biomes:detect/dry"
+}

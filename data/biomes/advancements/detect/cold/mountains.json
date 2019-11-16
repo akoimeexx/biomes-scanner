@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.mountains"
+        },
+        "description": {
+            "text": "Still not Mt. Everest, but a nice view"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mountains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/mountains"
+    },
+    "parent": "biomes:detect/cold"
+}

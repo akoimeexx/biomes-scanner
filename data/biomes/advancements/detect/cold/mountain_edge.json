@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.mountain_edge"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:emerald_ore"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:mountain_edge"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/mountain_edge"
+    },
+    "parent": "biomes:detect/cold"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.the_void"
+        },
+        "description": {
+            "text": "*stares at you silently.... judging"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_the_void": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_void"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/neutral/the_void"
+    },
+    "parent": "biomes:detect/neutral"
+}

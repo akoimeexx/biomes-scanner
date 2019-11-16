@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.shattered_savanna_plateau"
+        },
+        "description": {
+            "text": "A sheered off region famed for its llamas, warped by time"
+        },
+        "icon": {
+            "item": "minecraft:coarse_dirt"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_shattered_savanna_plateau": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:shattered_savanna_plateau"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/shattered_savanna_plateau"
+    },
+    "parent": "biomes:detect/dry"
+}

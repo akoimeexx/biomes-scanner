@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.sunflower_plains"
+        },
+        "description": {
+            "text": "Love you Mom"
+        },
+        "icon": {
+            "item": "minecraft:sunflower"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_sunflower_plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:sunflower_plains"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/sunflower_plains"
+    },
+    "parent": "biomes:detect/lush"
+}

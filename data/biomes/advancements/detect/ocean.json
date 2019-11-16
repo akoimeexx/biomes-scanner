@@ -1,0 +1,94 @@
+{
+    "display": {
+        "title": {
+            "text":"Ocean Biomes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:dried_kelp_block"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_cold_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:cold_ocean"
+            }
+        },
+        "detect_deep_cold_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_cold_ocean"
+            }
+        },
+        "detect_deep_frozen_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_frozen_ocean"
+            }
+        },
+        "detect_deep_lukewarm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_lukewarm_ocean"
+            }
+        },
+        "detect_deep_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_ocean"
+            }
+        },
+        "detect_deep_warm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:deep_warm_ocean"
+            }
+        },
+        "detect_frozen_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:frozen_ocean"
+            }
+        },
+        "detect_lukewarm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:lukewarm_ocean"
+            }
+        },
+        "detect_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:ocean"
+            }
+        },
+        "detect_warm_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:warm_ocean"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "detect_cold_ocean",
+            "detect_deep_cold_ocean",
+            "detect_deep_frozen_ocean",
+            "detect_deep_lukewarm_ocean",
+            "detect_deep_ocean",
+            "detect_deep_warm_ocean",
+            "detect_frozen_ocean",
+            "detect_lukewarm_ocean",
+            "detect_ocean",
+            "detect_warm_ocean"
+        ]
+    ],
+    "parent": "biomes:root"
+}

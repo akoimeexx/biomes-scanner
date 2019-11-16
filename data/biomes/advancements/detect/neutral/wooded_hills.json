@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.wooded_hills"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:oak_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_wooded_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:wooded_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/neutral/wooded_hills"
+    },
+    "parent": "biomes:detect/neutral"
+}

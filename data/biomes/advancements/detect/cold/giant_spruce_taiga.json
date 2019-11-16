@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.giant_spruce_taiga"
+        },
+        "description": {
+            "text": "Rivals of the Dwarf Redwood Steppes"
+        },
+        "icon": {
+            "item": "minecraft:spruce_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_giant_spruce_taiga": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:giant_spruce_taiga"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/cold/giant_spruce_taiga"
+    },
+    "parent": "biomes:detect/cold"
+}

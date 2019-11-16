@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.swamp"
+        },
+        "description": {
+            "text": "What... are ya' doin'... in MAH SWAMP?!"
+        },
+        "icon": {
+            "item": "minecraft:lily_pad"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:swamp"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/swamp"
+    },
+    "parent": "biomes:detect/lush"
+}

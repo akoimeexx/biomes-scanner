@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.jungle_hills"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:jungle_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_jungle_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:jungle_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/neutral/jungle_hills"
+    },
+    "parent": "biomes:detect/neutral"
+}

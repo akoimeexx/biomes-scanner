@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.end_midlands"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_end_midlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:end_midlands"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/the_end/end_midlands"
+    },
+    "parent": "biomes:detect/the_end"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.bamboo_jungle"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_bamboo_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:bamboo_jungle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/bamboo_jungle"
+    },
+    "parent": "biomes:detect/lush"
+}

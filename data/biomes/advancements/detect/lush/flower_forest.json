@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.flower_forest"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:rose_bush"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_flower_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:flower_forest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/lush/flower_forest"
+    },
+    "parent": "biomes:detect/lush"
+}

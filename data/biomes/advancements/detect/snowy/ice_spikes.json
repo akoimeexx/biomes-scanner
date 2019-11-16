@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.ice_spikes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:blue_ice"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_ice_spikes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:ice_spikes"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/snowy/ice_spikes"
+    },
+    "parent": "biomes:detect/snowy"
+}

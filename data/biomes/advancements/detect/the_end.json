@@ -1,0 +1,59 @@
+{
+    "display": {
+        "title": {
+            "text":"The End Biomes"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_end_barrens": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:end_barrens"
+            }
+        },
+        "detect_end_highlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:end_highlands"
+            }
+        },
+        "detect_end_midlands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:end_midlands"
+            }
+        },
+        "detect_small_end_islands": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:small_end_islands"
+            }
+        },
+        "detect_the_end": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:the_end"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "detect_end_barrens",
+            "detect_end_highlands",
+            "detect_end_midlands",
+            "detect_small_end_islands",
+            "detect_the_end"
+        ]
+    ],
+    "parent": "biomes:root"
+}

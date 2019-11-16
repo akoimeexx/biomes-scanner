@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.taiga_hills"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:spruce_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_taiga_hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:taiga_hills"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/neutral/taiga_hills"
+    },
+    "parent": "biomes:detect/neutral"
+}

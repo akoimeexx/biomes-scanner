@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate":"biome.minecraft.savanna"
+        },
+        "description": {
+            "text": "A dry grassy region, famed for its llamas"
+        },
+        "icon": {
+            "item": "minecraft:acacia_log"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "detect_savanna": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:savanna"
+            }
+        }
+    },
+    "rewards": {
+        "function": "biomes:detect/dry/savanna"
+    },
+    "parent": "biomes:detect/dry"
+}
